@@ -1,0 +1,8 @@
+env_name = "stage"
+resource_group_name   = "rg"
+location   = "East US"
+app_service_name   = "internal"
+app_service_plan_name   = "asp"
+vnet_name = "internal_vnet"
+subnet_name = "internal_snet"
+subnet_cidr  = "10.0.0.0/24"
